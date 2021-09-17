@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.main {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.text-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.title {
+    background-color: #FF2626;
+    padding: 1rem 2rem;
+    font-weight: 500;
+}
+
+.about-me {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 5px white;
+    margin-right: 4rem;
+
+}
+
+.buttons {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.option {
+    border: 2px solid black;
+    background-color: white;
+    padding: .25rem;
+    border-radius: .25rem;
+    font-size: 1.5rem;
+    margin: .5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 400ms;
+} 
+
+.option:hover {
+    background-color: #BD1616;
+    color: #FFE6E6;
+    box-shadow: 0px 0px 10px black;
+    transition: 300ms;
+
+}
+
+.option h3 {
+    margin: 0;
+    transition: 400ms;
+}
+
+.option:hover h3 {
+    color: #FFE6E6;
+    
+    transition: 300ms;
+
+}
+
+.option:hover h3 {
+    font-weight: 900;
+    text-shadow: 2px 2px 1px  black;
+    transition: 500ms;
+}
+
+.fullstack {
+    text-align: center;
+
+}
+
+.fullstack h1{
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.fullstack h3{
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+
+    .top-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-me {
+        margin: 0;
+    }
+    .fullstack h1{ 
+        font-size: 3rem;
+    }
+
+    .text-content h3 {
+        font-size: 1.25rem;
+    }
+
+}

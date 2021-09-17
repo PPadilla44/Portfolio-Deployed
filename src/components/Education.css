@@ -1,0 +1,132 @@
+.ed-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ed-data {
+    display: flex;
+    margin: 1rem;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.ed-img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid black;
+    border-right: none;
+    z-index: 3;
+    transition: 300ms;
+}
+
+.ed-img:hover {
+    box-shadow: -7px 0px 10px -5px #088fc0;
+    transition: 300ms;
+}
+
+#skyline:hover{
+    box-shadow: -7px 0px 10px -5px #e0a613;
+}
+
+.ed-contents p, .ed-contents h3, .ed-contents h1{ 
+    margin: 0;
+}
+.ed-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid black;
+    border-left: none;
+    height: 12rem;
+    width: 100%;
+}
+
+.ed-contents h1 {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: .25rem;
+    cursor: pointer;
+    transition: 400ms;
+
+}
+
+.ed-desc {
+    text-align: center;
+    margin: .25rem;
+}
+
+.ed-desc h3 {
+    font-weight: 600;
+}
+
+.skyline:hover {
+    color: #FCBA18;
+    transition: 200ms;
+}
+
+.dojo:hover {
+    color: #08A9E2;    
+    transition: 200ms;
+
+}
+
+.ed-foot {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
+
+.ed-foot p {
+    margin: 0 .25rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+    .ed-img {
+        height: 10rem;
+        width: 10rem;
+    }
+    .ed-contents {
+        height: 10rem;
+    }
+    .ed-data {
+        width: 100%;
+        margin: .25rem;
+    }
+}
+@media screen and (max-width: 800px) {
+
+    .ed-img {
+        height: 8rem;
+        width: 8rem;
+    }
+    .ed-contents {
+        height: 8rem;
+    }
+
+    .ed-data {
+        width: 100%;
+        margin: .25rem;
+    }
+
+    .ed-contents h1 { 
+        font-size: 1.7rem;
+    }
+
+    .ed-desc h3{
+        font-size: 1rem;
+    }
+
+    .ed-foot {
+        font-size: .75rem;
+        width: 14rem;
+    }
+}
