@@ -1,7 +1,7 @@
 import React from "react";
 import me from '../assets/me-boxed.jpg';
 import './About.css';
-import Resume from "../assets/PabloPadillaResume.pdf";
+import Resume from "../assets/Pablo_Padilla_Resume.pdf";
 import { Link } from 'react-scroll';
 
 

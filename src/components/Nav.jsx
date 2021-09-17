@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import './Nav.css'
 import { NavData } from './NavData';
 import { Link } from 'react-scroll';
-import Resume from "../assets/PabloPadillaResume.pdf";
+import Resume from "../assets/Pablo_Padilla_Resume.pdf";
 
 
 
