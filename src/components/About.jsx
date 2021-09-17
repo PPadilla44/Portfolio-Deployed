@@ -31,9 +31,9 @@ const About = (props) => {
                     </div>
                 </div>
                 <div className="text-content">
-                    <h3>I am a Committed and enthusiastic full-stack software engineer proficient in a variety of
-                    programming languages with experience in all levels of creating a web application including
-                    deployment and maintenance on cloud computing platforms.</h3>
+                    <h3>I am a committed and enthusiastic full-stack software engineer proficient in a variety of
+                        programming languages. I am experienced in all levels of web application development, 
+                        including deployment and maintenance on cloud computing platforms.</h3>
                 </div>
             </div>
         </section>
