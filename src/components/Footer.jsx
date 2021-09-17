@@ -2,7 +2,6 @@ import React from "react";
 import './Footer.css';
 import { NavData } from "./NavData";
 import { Link } from 'react-scroll';
-import Resume from "../assets/Pablo_Padilla_Resume.pdf";
 
 
 
@@ -19,7 +18,7 @@ const Footer = (props) => {
                             return (
                                     item.title === "Resume" 
                                     ?
-                                    <a key={index} href={Resume} className="foot-item" target='_blank' rel='noopener noreferrer'>
+                                    <a key={index} href="https://resume.creddle.io/resume/2d3jegbggub" className="foot-item" target='_blank' rel='noopener noreferrer'>
                                         <h5 style={{caretColor: "rgba(0,0,0,0)"}}>{item.title}</h5>
                                     </a>
                                     :

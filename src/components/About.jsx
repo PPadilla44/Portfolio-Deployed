@@ -1,7 +1,6 @@
 import React from "react";
 import me from '../assets/me-boxed.jpg';
 import './About.css';
-import Resume from "../assets/Pablo_Padilla_Resume.pdf";
 import { Link } from 'react-scroll';
 
 
@@ -25,7 +24,7 @@ const About = (props) => {
                             <Link to="projects" className="option" spy={true} smooth={true}>
                                     <h3>Projects</h3>
                             </Link>
-                            <a href={Resume} target='_blank' className="option" rel='noopener noreferrer'>
+                            <a href="https://resume.creddle.io/resume/2d3jegbggub" target='_blank' className="option" rel='noopener noreferrer'>
                                 <h3>Resume</h3>
                             </a>
                         </div>

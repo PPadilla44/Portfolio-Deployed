@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from "react";
 import './Nav.css'
 import { NavData } from './NavData';
 import { Link } from 'react-scroll';
-import Resume from "../assets/Pablo_Padilla_Resume.pdf";
 
 
 
@@ -113,7 +112,7 @@ const Nav = (props) => {
                                 {
                                     item.title === "Resume" 
                                     ?
-                                    <a href={Resume} onClick={handleSidebar} className={item.cName} target='_blank' rel='noopener noreferrer'>
+                                    <a href="https://resume.creddle.io/resume/2d3jegbggub" onClick={handleSidebar} className={item.cName} target='_blank' rel='noopener noreferrer'>
                                         <h5 style={{caretColor: "rgba(0,0,0,0)"}}>{item.title}</h5>
                                     </a>
                                     :
