@@ -8,6 +8,10 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-000000-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 // Color pallete
 // https://colorhunt.co/palette/ffe6e6ff2626bd1616000000
 // https://colorhunt.co/palette/fdd2bfff6b6bb61919012443
