@@ -1,6 +1,6 @@
 .gif {
-    /* height: 400px;
-    width: 500px; */
+    object-fit: cover;
+    vertical-align: middle;
     height: 350px;
     width: 450px;
     border: 1px solid black;
@@ -51,7 +51,6 @@
     border-radius: 0 0 20px 20px;
     position: relative;
     bottom: 70px;
-
 }
 
 .project-blur {
@@ -136,7 +135,7 @@
     height: 70px;
 }
 
-.project-info, .project-srcCode {
+.project-btn {
     z-index: 3;
     width: 8rem;
     padding: .25rem;
@@ -147,39 +146,48 @@
     transition: 300ms;
     text-decoration: none;
 }
-.project-info {
-    background-color: #012443;
-    border: black 3px solid;
-    color: white;
-}
 
-.project-info:hover {
-    background-color: #043663;
-    text-shadow: 2px 2px 5px  black;
 
-    transition: 300ms;
-}
 
-.project-info:hover,.project-srcCode:hover {
-
-    box-shadow: 0 0 10px 0px rgb(175, 172, 172);
-    width: 8.5rem;
-
-    font-weight: 900;
-    transition: 500ms;
-}
-
-.project-srcCode {
+.project-btn {
     background-color: white;
-    color: black;
-    border: #BD1616 3px solid;
+    width: fit-content;
+    border-radius: 50%;
+    border: black 3px solid;
 }
 
-.project-srcCode:hover {
+.project-btn:hover {
     text-shadow: 2px 2px 5px  gray;
-
-    color: black;
+    box-shadow: 0 0 10px 0px black;
+    font-weight: 900;
     transition: 300ms;
+    color: black;
+    border: white 3px solid;
+    transition: 300ms;
+
+}
+
+.project-live {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 59px;
+    height: 59px;
+    background-color: red;
+    color: black;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    text-shadow: 2px 2px 5px  white;
+
+}
+
+.project-live:hover {
+    text-shadow: 2px 2px 5px  black;
+    color: white;
+    transition: 300ms;
+    background-color: #BD1616;
+    border: white 3px solid;
+
 }
 
 
@@ -197,6 +205,7 @@
 
     .gifWrapper {
         padding: 0;
+        max-width: 325px;
     }
 
     .project-desc {
