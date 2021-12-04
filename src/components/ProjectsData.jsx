@@ -10,7 +10,7 @@ export const ProjectsData = [
         link: "https://github.com/PPadilla44/draw_something",
         description: [
             "Created a Python web application using the Flask framework for secure cookies and Jinja2 to safely store and display dynamically changing data.",
-            "Saved and maniputed data using MYSQL for its data secuity and to easily create relationships bewtween users and their creations.",
+            "Saved and manipulated data using MYSQL for its data security and to easily create relationships between users and their creations.",
             "Engineered drawing functionality in JavaScript with the use of canvas, event listeners, and without use of libraries."
         ],
     },
