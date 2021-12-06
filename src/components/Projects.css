@@ -173,7 +173,7 @@
     justify-content: center;
     width: 59px;
     height: 59px;
-    background-color: red;
+    background-color: skyblue;
     color: black;
     font-size: 1.5rem;
     white-space: nowrap;
@@ -185,8 +185,8 @@
     text-shadow: 2px 2px 5px  black;
     color: white;
     transition: 300ms;
-    background-color: #BD1616;
-    border: white 3px solid;
+    background-color: rgb(104, 172, 199);
+    border: rgb(104, 172, 199) 3px solid;
 
 }
 
