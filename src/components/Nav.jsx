@@ -40,7 +40,7 @@ const Nav = (props) => {
         handleResize();
 
         return () => window.removeEventListener('resize', handleResize);
-        
+
     }, [windowSize.width, setBlur]);
 
     const handleSidebar = () => {
@@ -72,7 +72,7 @@ const Nav = (props) => {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll)
-    },[])
+    }, [])
 
 
     return (
@@ -83,10 +83,14 @@ const Nav = (props) => {
             <nav ref={wrapperRef} className={side ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-items' onClick={handleSidebar}>
                     <li className='navbar-toggle'>
+
                         <Link className="nav-titleName" to="about" onClick={handleSidebar} spy={true} smooth={true} offset={0}>
-                            <h1>Pablo</h1>
-                            <h1 className="ms-3">Padilla</h1>
+                            <div id="nav-logo">
+                                <h1>P</h1>
+                            </div>
+
                         </Link>
+
                         <div className="navbar-contact">
                             <a href="https://github.com/PPadilla44" rel="noopener noreferrer" target="_blank">
                                 <svg className="contacts" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -110,15 +114,15 @@ const Nav = (props) => {
                         return (
                             <li key={index}>
                                 {
-                                    item.title === "Resume" 
-                                    ?
-                                    <a href="https://resume.creddle.io/resume/2d3jegbggub" onClick={handleSidebar} className={item.cName} target='_blank' rel='noopener noreferrer'>
-                                        <h5 style={{caretColor: "rgba(0,0,0,0)"}}>{item.title}</h5>
-                                    </a>
-                                    :
-                                    <Link activeClass="nav-active" to={item.link} onClick={handleSidebar} className={item.cName} spy={true} smooth={true} offset={0}>
-                                        <h5 style={{caretColor: "rgba(0,0,0,0)"}}>{item.title}</h5>
-                                    </Link>
+                                    item.title === "Resume"
+                                        ?
+                                        <a href="https://drive.google.com/file/d/1_KuQOLixYHB2WoC7q4yHZ2I3Ftza7l5q/view" onClick={handleSidebar} className={item.cName} target='_blank' rel='noopener noreferrer'>
+                                            <h5 style={{ caretColor: "rgba(0,0,0,0)" }}>{item.title}</h5>
+                                        </a>
+                                        :
+                                        <Link activeClass="nav-active" to={item.link} onClick={handleSidebar} className={item.cName} spy={true} smooth={true} offset={0}>
+                                            <h5 style={{ caretColor: "rgba(0,0,0,0)" }}>{item.title}</h5>
+                                        </Link>
                                 }
 
                             </li>

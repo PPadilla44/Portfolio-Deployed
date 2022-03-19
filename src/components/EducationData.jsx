@@ -10,7 +10,7 @@ export const EducationData = [
         image: dojo,
         classN: "dojo",
         description: [
-            "Immersive Full-Stack Training Program in Python, Java, and MERN"
+            "Immersive / Intensive 80 hours per week Full-Stack Training Program in Python, Java, and MERN"
         ]
     },
     {

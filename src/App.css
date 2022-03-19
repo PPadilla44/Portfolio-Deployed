@@ -1,7 +1,7 @@
-*{
+* {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Furtura';
 }
 
 .App {
@@ -14,6 +14,21 @@ main {
   margin-left: 180px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+section {
+  max-width: 1400px;
+  width: 100%;
+}
+
+.title {
+  background-color: white;
+  padding: 1rem 2rem;
+  color: black;
+  font-weight: 800;
+  box-shadow: 0 0 10px 1px black;
+  width: 100%;
 }
 
 .blurBackground {
@@ -30,8 +45,5 @@ main {
 @media screen and (max-width: 1000px) {
   main {
     margin: 0;
-    /* padding: 0; */
   }
 }
-
-
