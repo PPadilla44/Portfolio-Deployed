@@ -1,8 +1,8 @@
 export const SkillsData = [
     {
         title: "LANGUAGES",
-        contents: ["Java", "Pthon", "SQL", "HTML5", "CSS",
-            "JavaScript, TypeScript"]
+        contents: ["Java", "Python", "SQL", "HTML5", "CSS",
+            "JavaScript", "TypeScript"]
     },
     {
         title: "FRAMEWORKS / LIBRARIES",
