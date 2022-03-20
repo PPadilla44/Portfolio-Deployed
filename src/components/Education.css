@@ -4,32 +4,34 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    gap: 25px;
+    margin-bottom: 1rem;
+
 }
 
 .ed-data {
     display: flex;
-    margin: 1rem;
     border-radius: 20px;
-    width: 1000px;
+    width: 100%;
+    box-shadow: 0 5px 15px 1px black;
 }
 
 .ed-img {
     height: 12rem;
     width: 12rem;
     border-radius: 20px 0 0 20px;
-    border: 1px solid black;
     border-right: none;
     z-index: 3;
     transition: 300ms;
 }
 
 .ed-img:hover {
-    box-shadow: -7px 0px 10px -5px #088fc0;
+    box-shadow: -10px 0px 10px 1px #088fc0;
     transition: 300ms;
 }
 
 #skyline:hover{
-    box-shadow: -7px 0px 10px -5px #e0a613;
+    box-shadow: -10px 0px 10px 1px #e0a613;
 }
 
 .ed-contents p, .ed-contents h3, .ed-contents h1{ 
@@ -42,10 +44,10 @@
     justify-content: space-between;
     background-color: white;
     border-radius: 0 20px 20px 0;
-    border: 1px solid black;
     border-left: none;
     height: 12rem;
     width: 100%;
+
 }
 
 .ed-contents h1 {

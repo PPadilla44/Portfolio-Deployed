@@ -16,6 +16,11 @@
     font-weight: 600;
     margin: 0;
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-name:hover {
+    color: #d62727;
 }
 
 .foot-nav {
@@ -34,7 +39,6 @@
 
 .foot-item h5 {
     color: #BD1616;
-
     margin: .25rem;
     font-weight: 600;
 }

@@ -1,23 +1,23 @@
 export const SkillsData = [
     {
         title: "LANGUAGES",
-        contents: ["Java", "Pthon", "C",
-                    "C#", "SQL", "HTML5", 
-                    "JavaScript", "CSS"]
+        contents: ["Java", "Python", "SQL", "HTML5", "CSS",
+            "JavaScript", "TypeScript"]
     },
     {
         title: "FRAMEWORKS / LIBRARIES",
-        contents: ["Express", "React", "Bootstrap", "Spring Boot",
-                    "Flask", "Jinja2", "NodeJs"]
+        contents: ["React", "React Native", "Bootstrap", "Tail Wind", "Jest",
+            "Express", "Bootstrap", "Spring Boot",
+            "Flask", "Jinja2", "NodeJs"]
     },
     {
         title: "TOOLS",
-        contents: ["Spring Tool Suite", "GitHub", "VS Code", "PostMan",
-                    "Amazon Web Services", "MySQL Workbench", "Mongoose",
-                    "Socket.io", "Ubuntu", "Gunicorn", "RegEx"]
+        contents: ["Git", "PostMan",
+            "Amazon Web Services", "MySQL Workbench", "Mongoose",
+            "Socket.io", "Ubuntu", "Gunicorn", "RegEx", "RESTful APi"]
     },
     {
         title: "DATABASES",
-        contents: ["MySQL", "MongoDB"]
+        contents: ["MySQL", "MongoDB", "Firebase", "PostgreSQL"]
     },
 ]

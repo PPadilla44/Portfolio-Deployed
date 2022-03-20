@@ -6,25 +6,24 @@ const Contact = (props) => {
 
 
     return (
-        <section name="contact">
+        <>
             <h1 className="title">Contact</h1>
-            <div className="contact-main">
-                {
-                    ContactData.map((item, i) => {
-                        return (
-                            <div  key={i} className="contact-contents">
-                            <a  rel="noopener noreferrer"  className={`${item.classN} contact-data`} href={item.link} target="_blank" >
+            <section name="contact">
+                <div className="contact-main">
+                    {
+                        ContactData.map((item, i) => {
+                            return (
+                                <a key={i} rel="noopener noreferrer" className={`contact-contents`} href={item.link} target="_blank" >
+                                        {item.image}
+                                    <h3>{item.title}</h3>
+                                </a>
 
-                                <img src={item.image} alt={item.title} className="contact-img" />
-                            </a>
-                                <h3>{item.title}</h3>
-                            </div>
-
-                        )
-                    })
-                }
-            </div>
-        </section>
+                            )
+                        })
+                    }
+                </div>
+            </section>
+        </>
     );
 };
 

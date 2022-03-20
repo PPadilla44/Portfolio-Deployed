@@ -15,11 +15,6 @@ export const NavData = [
         cName: 'nav-text',
         link: 'projects'
     },
-    // {
-    //     title: 'Experience',
-    //     cName: 'nav-text',
-    //     link: 'experience'
-    // },
     {
         title: 'Education',
         cName: 'nav-text',

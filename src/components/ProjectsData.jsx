@@ -9,9 +9,9 @@ export const ProjectsData = [
         deployed: "http://3.128.205.160/",
         link: "https://github.com/PPadilla44/draw_something",
         description: [
-            "Created a Python web application using the Flask framework for secure cookies and Jinja2 to safely store and display dynamically changing data.",
-            "Saved and maniputed data using MYSQL for its data secuity and to easily create relationships bewtween users and their creations.",
-            "Engineered drawing functionality in JavaScript with the use of canvas, event listeners, and without use of libraries."
+            "Created a Python web application using the Flask framework for secure cookies and Jinja2 to store and display dynamically changing data safely.",
+            "Saved and manipulated data using MYSQL for its data security and easily created relationships between users and their creations.",
+            "Engineered drawing functionality in JavaScript with the use of canvas, event listeners, and without the use of libraries."
         ],
     },
     {
@@ -20,9 +20,9 @@ export const ProjectsData = [
         deployed: false,
         link: "https://github.com/PPadilla44/Discord-Clone",
         description: [
-            "Led a team to develop a clone of Discord using Nodejs back-end framework and React front-end framework for a responsive one page web application.",
-            "Stored all data with MongoDB for a flexible schema and ability to quickly handle large amounts of data at high speeds.",
-            "Implemented instant messaging with Socket.io so users can send and receive messages/notifications instantly without having to refresh the page."
+            "Led a team to develop a clone of Discord using Nodejs back-end framework and React front-end framework for a responsive one-page web application",
+            "Protected and verified a user's credentials using BCrypt to conceal a user's password in the database and Regular Expression (RegEx) to validate a user is providing a valid email and strong password.",
+            "Implemented instant messages and notifications with Socket.io and the React Effect hook so users can send and receive messages and friend requests instantly without refreshing the page."
         ],
     },
     {

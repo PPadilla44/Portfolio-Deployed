@@ -3,32 +3,30 @@
     vertical-align: middle;
     height: 350px;
     width: 450px;
-    border: 1px solid black;
     border-top: none;
     border-radius: 0 0 20px 20px;
     margin: 0;
-    box-shadow: none;
 }
 
 .gifWrapper {
-    padding: 1rem;
-    margin: .5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+    box-shadow: 0 5px 15px 1px black;
+    border-radius: 20px;
 }
 
 .gifWrapper h3 {
+
     background-color: white;
     color: black;
     margin: 0;
     border-radius: 20px 20px 0 0;
     padding: 1rem;
-    border: 1px solid black;
     border-bottom: none;
     font-size: 2rem;
-    font-weight: 600;
-    text-shadow: 5px 5px 10px gray;
+    font-weight: 700;
 
 }
 
@@ -37,20 +35,16 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 25px;
+    margin-bottom: 1rem;
     padding: 1rem;
-}
-
-.title {
-    background-color: #BD1616;
-    padding: 1rem 2rem;
-    color: white;
-    font-weight: 800;
 }
 
 .project-foot {
     border-radius: 0 0 20px 20px;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .project-blur {
@@ -157,14 +151,9 @@
 }
 
 .project-btn:hover {
-    text-shadow: 2px 2px 5px  gray;
-    box-shadow: 0 0 10px 0px black;
-    font-weight: 900;
     transition: 300ms;
-    color: black;
     border: white 3px solid;
     transition: 300ms;
-
 }
 
 .project-live {
@@ -177,17 +166,12 @@
     color: black;
     font-size: 1.5rem;
     white-space: nowrap;
-    text-shadow: 2px 2px 5px  white;
 
 }
 
 .project-live:hover {
-    text-shadow: 2px 2px 5px  black;
-    color: white;
     transition: 300ms;
-    background-color: rgb(104, 172, 199);
     border: rgb(104, 172, 199) 3px solid;
-
 }
 
 
