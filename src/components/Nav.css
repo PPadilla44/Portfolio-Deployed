@@ -27,7 +27,8 @@
     font-size: 100px;
     text-align: center;
     transition: 500ms;
-
+    padding-left: 10px;
+    padding-top: 14px;
 }
 
 #nav-logo:hover{
